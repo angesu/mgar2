@@ -479,7 +479,6 @@ body {
 
 /* HEADER ONLY */
 .site-header {
-  position: fixed;
   z-index: 500;
 
 }
@@ -885,16 +884,16 @@ select[id=question] {
 /* SITE SPECIFIC CUSTOM CSS */
 
 .site-header.sticky {
-position: fixed;
-width: 100%;
-}
-
-.site-footer.sticky {
-position: fixed;
-width: 100%;
-bottom: 0;
-}
-
+  position: fixed;
+  width: 100%;
+  }
+  
+  .site-footer.sticky {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  }
+  
 
 .section-title {
   font-family: 'Montserrat', sans-serif;
@@ -938,7 +937,7 @@ padding-top: 25px;
 }
 
 #gallery {
-background: #000;
+background: #369A7E;
 padding-bottom: 2em;
 padding-top: 25px;
 }
@@ -1443,3 +1442,11 @@ font-size: 12px;
       top: 50px; */
     }
   }
+
+  .scallop-up{
+    height:100px;
+    width:100%;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+  -webkit-background-size: 49px 100%;
+  }
+  
